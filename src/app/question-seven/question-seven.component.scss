@@ -1,0 +1,64 @@
+.mydiv {
+  font-family: "Lucida Sans Unicode", Geneva;
+}
+
+a[href="http://example.com"] {
+  color: red;
+}
+
+#colorchilderen div div div {
+  // overider this for second problem
+  color: red;
+}
+#colorchilderen div div div div {
+  // overider this for second problem
+  color: yellow;
+}
+#colorchilderen div {
+  // overider this for second problem
+  color: green;
+}
+
+#bluecolor ul li ul li:nth-child(2) {
+  // for second problem
+  color: blue;
+}
+#bluecolor ul li:nth-child(2) {
+  color: blue;
+}
+
+#evenodd li:nth-child(even) {
+  // for third problem
+  color: red;
+}
+#evenodd li:nth-child(odd) {
+  // for third problem
+  color: green;
+}
+
+#lastselector ul li ul li:last-child {
+  // for fourth problem
+  color: red;
+}
+
+#lastselector ul li ul li ul li:last-child {
+  // for fourth problem
+  color: red;
+}
+#lastselector ul li:last-child {
+  // for fourth problem
+  color: red;
+}
+
+#lastselector ul li ul li ul li ul li:last-child {
+  // for fourth problem
+  color: red;
+}
+
+a:hover {
+  color: red;
+  cursor: pointer;
+}
+a:active {
+  color: blue;
+}

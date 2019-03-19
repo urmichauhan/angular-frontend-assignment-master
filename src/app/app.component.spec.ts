@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-frontend-assigment-master'`, () => {
+  it(`should have as title 'angular-frontend-assigment'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('angular-frontend-assigment-master');
+    expect(app.title).toEqual('angular-frontend-assigment');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to angular-frontend-assigment-master!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to angular-frontend-assigment!');
   });
 });
